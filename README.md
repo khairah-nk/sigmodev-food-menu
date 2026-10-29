@@ -1,24 +1,29 @@
 # Khairah's Food Menu
 
-A simple static webpage showcasing a food menu, daily specials, a fun fact, and contact information. It is built with HTML and CSS, with an empty JavaScript file included for future interactivity.
+A small, static food-menu website built with HTML and CSS. It presents menu items, specials, a short personal fact, and contact information.
 
-## Contents
+## Menu
 
-- **Menu:** Hamburgers, cheeseburgers, fries, and drinks
-- **Specials:** Chicken sandwich, salad, and ice cream
-- **About:** A fun fact about Khairah
-- **Contact:** Contact information
+| Item | Price |
+| --- | ---: |
+| Hamburger | $3.99 |
+| Cheeseburger | $4.99 |
+| Fries | $2.99 |
+| Drink | $1.99 |
+| Chicken Sandwich (special) | $5.99 |
+| Salad (special) | $4.49 |
+| Ice Cream (special) | $2.49 |
 
-## Run locally
+## View the site
 
-No installation or build step is required. Open `index.html` in a web browser, or use a local development server such as the VS Code Live Server extension.
+There is no installation or build step. Open `index.html` in a web browser, or run the folder with a local development server such as the VS Code Live Server extension.
 
 ## Project files
 
-- `index.html` — Page content and menu items
-- `styles.css` — Basic typography and styling
-- `script.js` — Placeholder for future JavaScript functionality
+- `index.html` — Page content, menu, and contact details
+- `styles.css` — Page typography and styling
+- `script.js` — Currently empty; available for future interactive features
 
-## Customize
+## Make changes
 
-Edit `index.html` to change menu items, prices, images, or contact details. Update `styles.css` to change the appearance. The menu images are currently loaded from externally hosted Google image URLs, so they require an internet connection.
+Update the menu, prices, images, fun fact, or contact details in `index.html`. Change the visual styling in `styles.css`. The images use externally hosted URLs and require an internet connection. Replace the sample contact email in the page with the address you want visitors to use before publishing.
