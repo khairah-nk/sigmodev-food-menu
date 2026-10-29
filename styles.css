@@ -1,9 +1,39 @@
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 36px;
+main {
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 58px;
 }
 
-h2{
-    font-family: Arial, sans-serif;
-    font-size: 30px;
+section .title {
+  padding: 16px 0;
+}
+
+section h2 {
+  font-size: 16px;
+}
+
+section hr {
+  margin-top: 8px;
+  color: white;
+}
+
+section ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: auto;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+section img {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  width: 100%;
+}
+
+section p {
+  margin-top: 8px;
+  color: #501F11;
+  text-align: center;
 }
