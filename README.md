@@ -1,18 +1,42 @@
 # Khairah's Food Menu
 
-A small, static food-menu website built with HTML and CSS. It presents menu items, specials, a short personal fact, and contact information.
+A static food-menu website built with HTML and CSS. The page groups food and drinks into four sections: burgers, chicken, sides, and drinks.
 
 ## Menu
+
+### Burgers
 
 | Item | Price |
 | --- | ---: |
 | Hamburger | $3.99 |
 | Cheeseburger | $4.99 |
-| Fries | $2.99 |
-| Drink | $1.99 |
-| Chicken Sandwich (special) | $5.99 |
-| Salad (special) | $4.49 |
-| Ice Cream (special) | $2.49 |
+| Double Cheeseburger | $6.99 |
+
+### Chicken
+
+| Item | Price |
+| --- | ---: |
+| Chicken Nuggets (6 pieces) | $3.99 |
+| Chicken Sandwich | $5.49 |
+| Chicken Tenders (3 pieces) | $4.99 |
+
+### Sides
+
+| Item | Price |
+| --- | ---: |
+| Fries | $1.99 |
+| Onion Rings | $2.49 |
+| Onion Ring | $1.49 |
+| Mozzarella Sticks (4 pieces) | $1.49 |
+
+### Drinks
+
+| Item | Price |
+| --- | ---: |
+| Water (500 ml) | $10.49 |
+| Soda (500 ml) | $1.49 |
+| Lemonade (500 ml) | $1.99 |
+| Iced Tea (500 ml) | Not listed |
 
 ## View the site
 
@@ -20,10 +44,10 @@ There is no installation or build step. Open `index.html` in a web browser, or r
 
 ## Project files
 
-- `index.html` — Page content, menu, and contact details
+- `index.html` — Page content and menu items
 - `styles.css` — Page typography and styling
 - `script.js` — Currently empty; available for future interactive features
 
 ## Make changes
 
-Update the menu, prices, images, fun fact, or contact details in `index.html`. Change the visual styling in `styles.css`. The images use externally hosted URLs and require an internet connection. Replace the sample contact email in the page with the address you want visitors to use before publishing.
+Update the menu, prices, or images in `index.html`. Change the visual styling in `styles.css`. The images use externally hosted URLs and require an internet connection. Add a price for iced tea if one should be shown.
